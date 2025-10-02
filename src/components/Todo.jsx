@@ -48,7 +48,7 @@ export default function Todo()  {
       <div className="mb-6">
         <h1 className="text-lg font-semibold font-dynapuff mb-6">Add Task</h1>
         <div className="flex rounded-lg overflow-hidden">
-          <input value={newTodo} className="flex-1 p-4 py-3 backdrop-blur-sm focus:outline-none border-r border-black/30"
+          <input value={newTodo} className="flex-1 p-4 py-3 backdrop-blur-sm focus:outline-none border-r border-black/30 font-dynapuff"
             onChange={(e) => setNewTodo(e.target.value)}
             placeholder="Enter new task..." type="text" 
             onKeyPress={(e) => e.key === 'Enter' && addTodo()} 
