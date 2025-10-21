@@ -26,26 +26,16 @@
 @layer base {
   :root {
     --font-quintessential: "Quintessential", serif;
+    --font-dynapuff: "DynaPuff", system-ui;
+    --font-chicle: "Chicle", serif;
   }
 
   .font-quintessential {
     font-family: var(--font-quintessential);
   }
-}
-
-@layer base {
-  :root {
-    --font-dynapuff: "DynaPuff", system-ui;
-  }
 
   .font-dynapuff {
     font-family: var(--font-dynapuff);
-  }
-}
-
-@layer base {
-  :root {
-    --font-chicle: "Chicle", serif;
   }
 
   .font-chicle {
